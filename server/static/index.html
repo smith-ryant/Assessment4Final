@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="container">
+    <h2>Click this button for a compliment.</h2>
+    <button id="complimentButton">Get a compliment</button>
+    <h2>Click this button for a fortune.</h2>
+    <button id="fortuneButton">Get a fortune</button>
+    <header>
+      <h1>Real Estate Viewer</h1>
+    </header>
+    <main>
+      <form>
+        <input
+          type="text"
+          id="address"
+          placeholder="What's the house address"
+        />
+        <input type="text" id="price" placeholder="What is the price?" />
+        <input type="text" id="img" placeholder="Paste an image URL" />
+        <button>Add House</button>
+      </form>
+
+      <section id="houses-container"></section>
+    </main>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
